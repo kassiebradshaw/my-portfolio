@@ -46,6 +46,7 @@ import Icons from "./IndexSections/Icons.js";
 import Login from "./IndexSections/Login.js";
 import Download from "./IndexSections/Download.js";
 
+
 class Index extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;

@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/mine/kbradshaw1.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -124,31 +124,27 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Kassie Bradshaw{" "}
+                      <span className="font-weight-light">, 32</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Oregon City, Oregon
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Emergent Software Developer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Code Fellows
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        I’m a software developer specializing in Python. Currently I’m a domestic engineer but I prefer to think of myself as a helper, a maker and a thinker. I love learning and languages, and the idea of writing code as a form of communicating and creating. I’m the kind of person that jumps at the chance for new experiences and I’m eager to step up and take on challenges. It’s led me to a lot of different jobs, but that has allowed me the opportunity to build up a wide variety of skills. I’m looking forward to a career that will allow me to use my skills to create and contribute to projects that will bring joy to other people or enhance their life in a meaningful way.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
